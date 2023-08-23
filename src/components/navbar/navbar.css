@@ -1,0 +1,19 @@
+.navbar__container {
+  border: 1px solid red;
+}
+
+.navbar__container-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.navlinks__container {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
