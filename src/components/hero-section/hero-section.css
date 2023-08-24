@@ -44,15 +44,15 @@
   padding: 8px 24px;
   cursor: pointer;
   font-size: 16px;
-  color: #73a642;
-  background: transparent;
   border: 2px solid #73a642;
   border-radius: 8px;
 
   transition: all 0.5s ease-in;
+  background: #73a642;
+  color: #fff;
 }
 
 .hero__btn:hover {
-  background: #73a642;
-  color: #fff;
+  color: #73a642;
+  background: transparent;
 }

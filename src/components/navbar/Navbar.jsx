@@ -31,7 +31,7 @@ const Navbar = () => {
       }
     >
       <header className="navbar__container-header">
-        <Link to="/">
+        <Link to="/" data-aos="fade-right">
           <img src="/tropical-logo.png" alt="logo" className="logo" />
         </Link>
         <nav className="navlinks__container" data-aos="fade-down">
