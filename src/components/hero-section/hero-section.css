@@ -1,11 +1,9 @@
 .heroSection {
-  position: absolute;
-  background-image: url(./banner.jpg);
-  background-repeat: no-repeat;
+  background: url(/banner.jpg) no-repeat cover;
+}
 
-  height: 100vh;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+.heroSection__banner-container {
+}
+
+.heroSection__banner {
 }

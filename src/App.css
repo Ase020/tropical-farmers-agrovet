@@ -6,4 +6,7 @@
 
 .app {
   border: 1px solid green;
+  background: url(/banner.jpg) center/cover;
+  min-height: 100vh;
+  opacity: 0.9;
 }
