@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
-import {
-  facebook,
-  whatsApp,
-  twitter,
-  instagram,
-  youtube,
-  tropicalLogo,
-} from "../../assets";
+import { FaFacebook, FaWhatsapp, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import {  tropicalLogo, sendMail } from "../../assets";
 import "./footer.css";
 
 const Footer = () => {
@@ -14,20 +8,19 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-links-container">
         <div className="footer-links-logo-wrapper">
-          <img src={tropicalLogo} alt="footer-logo" className="footer-logo" />
+          <img src={tropicalLogo} alt="Tropical-logo" className="footer-logo" />
+          <h4 className="footer-contact-header">Explore</h4>
           <div className="footer-links">
-            <Link to="/">Lifestyle</Link>
-            <Link to="/">Pricing</Link>
-            <Link to="/">Features</Link>
-            <Link to="/">Class</Link>
-            <Link to="/">Download</Link>
+            <Link to="/">Home</Link>
+            <Link to="/">Products</Link>
+            <Link to="/">Gallery</Link>
+            <Link to="/">About Us</Link>
+            <Link to="/">Contacts</Link>
           </div>
         </div>
-
         <div className="footer-contact-us">
-          <h4 className="footer-contact-header">Address</h4>
-
           <div className="footer-contact-address-wrapper">
+            <h4 className="footer-contact-header">Address</h4>
             <p className="footer-contact-address">Kenyatta Street next to<br /> Kenya Highlands Sacco. </p>
             <p className="footer-contact-address">Kericho Town</p>
             <p className="footer-contact-address">Kericho, Kenya</p>
@@ -47,7 +40,6 @@ const Footer = () => {
             </iframe>
           </div>
         </div>
-
         <div className="footer-newsletter">
           <h4 className="footer-contact-header">Newsletter</h4>
           <p className="footer-newsletter-desc">
@@ -58,46 +50,32 @@ const Footer = () => {
               type="text"
               placeholder="Enter your email"
               className="footer-newsletter-email"
+              required="true"
             />
+            <img src={sendMail} alt="send" className="newsletter-btn" />
           </div>
         </div>
       </div>
-
       <div className="footer-copyright-social-links">
-        <div className="footer-copyright">
-          Copyright © 2023 Tropical Farmers Agrovet PLC. All rights reserved
-        </div>
         <div className="footer-social-links">
-          <Link to="/">
-            <img
-              src={facebook}
-              alt="facebook"
-              className="footer-social-link" />
-          </Link><Link to="/">
-            <img
-              src={whatsApp}
-              alt="whatsApp"
-              className="footer-social-link" />
-          </Link>
-          <Link to="/">
-            <img 
-              src={twitter} 
-              alt="twitter" 
-              className="footer-social-link" 
-            />
-          </Link>
-          <Link to="/">
-            <img
-              src={instagram}
-              alt="instagram"
-              className="footer-social-link"
-            />
-          </Link><Link to="/">
-            <img
-              src={youtube}
-              alt="youtube"
-              className="footer-social-link" />
-          </Link>
+          <a href="https://web.facebook.com/TropicalAgrovet" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className="footer-social-link" color="#7ea3cc" />
+          </a>
+          <a href="https://wa.me/254740522124" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className="footer-social-link" color="#25d366" />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="footer-social-link" color="#1da1f2" />
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="footer-social-link" color="#e1306c" />
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <FaYoutube className="footer-social-link" color="#ff0000" />
+          </a>
+        </div>
+        <div className="footer-copyright">
+          Copyright © 2023 Tropical Farmers Agrovet, PLC. All rights reserved
         </div>
       </div>
     </footer>
@@ -105,61 +83,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import "./footer.css";
-
-// const Footer = () => {
-//   return (
-//     <footer className="bg-dark text-light">
-//       <div className="container">
-//         <div className="footer-items">
-//           <div className="row">
-//             <div className="item">
-//               <div className="about">
-//               <h2>About Us</h2>
-//                 <img src="tropical-logo.png" alt="Tropical-Logo"></img>
-//                 <h3>Tropical Farmers Agrovet</h3>
-//                 <p>
-//                   Tropical Farmers Agrovet Ltd Co Ltd is a Private Limited Company 
-//                   established under the Company&apos;s Act 2015, Laws of Kenya 
-//                   registered 5th February 2021 to carry out agriculture related 
-//                   business like Crop farming, Livestock Farming, Trading of 
-//                   agricultural products and other agriculture related business. 
-//                   The company started operation in 2021 to date.
-//                 </p>
-//                 <form action="#">
-//                   <input type="email" placeholder="Your email" className="form-control" name="email"></input>
-//                   <button type="submit">Subscribe</button>
-//                 </form>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
