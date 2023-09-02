@@ -55,6 +55,8 @@ const Navbar = () => {
             </Link>
             <Link onClick={() => setMobile(false)} to="/">
               Products
+            </Link><Link onClick={() => setMobile(false)} to="/">
+              Gallery
             </Link>
             <Link onClick={() => setMobile(false)} to="/">
               About Us
