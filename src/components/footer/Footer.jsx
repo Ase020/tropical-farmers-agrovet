@@ -17,7 +17,24 @@ const Footer = () => {
             <Link to="/">About Us</Link>
             <Link to="/">Contacts</Link>
           </div>
+          <div className="mis-vis-container">
+          <h4 className="footer-contact-header">About</h4>
+          <div className="mis-vis">
+            <ul>
+              <li>
+                <strong className="str">Vision: </strong>
+                  <p>To partner with governmental and non-governmental entities to achieve food security and sustainability</p>
+              </li>
+              <br />
+                <li>
+                  <strong className="str">Mision: </strong>
+                  <p>To provide the best practices  in the industry that guarantees quality and safe farm produce, and to improve the lives of farmers</p>
+                </li>
+            </ul>
+          </div>
         </div>
+        </div>
+        
         <div className="footer-contact-us">
           <div className="footer-contact-address-wrapper">
             <h4 className="footer-contact-header">Address</h4>

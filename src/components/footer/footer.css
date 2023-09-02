@@ -5,7 +5,7 @@ footer{
 .footer-container {
     display: flex;
     flex-direction: column;
-    padding: 24px 0;
+    padding: 8px 0;
     gap: 60px;
 }
 
@@ -21,7 +21,7 @@ footer{
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    width: 30%;
+    width: 33%;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -30,7 +30,7 @@ footer{
     height: 50px;
     border: none;
     outline: none;
-    margin-top: 12px;
+    margin-top: 16px;
     vertical-align: middle;
 }
 
@@ -44,8 +44,23 @@ footer{
 }
 
 .footer-links a {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
+}
+
+.mis-vis {
+    margin-top: 14px;
+}
+
+.mis-vis-container li{
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 250;
+}
+
+.str {
+    color: #000;
 }
 
 .footer-contact-us {
@@ -87,6 +102,7 @@ footer{
 }
 
 .footer-newsletter-desc {
+    font-style: italic;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
@@ -146,8 +162,6 @@ footer{
     font-style: italic;
 }
 
-
-
 @media screen and (max-width:480px) {
     footer {
         background: #404a3d;
@@ -202,6 +216,12 @@ footer{
     .footer-social-link {
         width: 18px;
         height: 18px;
+    }
+
+    .mis-vis-container {
+        margin-bottom: 16px;
+        margin-left: 16px;
+        color: #fff;
     }
 
     .footer-contact-us {
