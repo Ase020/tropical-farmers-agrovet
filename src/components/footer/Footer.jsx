@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div>
             <iframe className="footer-iframe-map"
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3989.7348733198296!2d35.28065317474492!3d-0.3705674353103748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shttps%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F-1.3034475%2C36.7927213%2Ftropical%2Bfarmers%2Bagrovet%2Bkericho%2F%40-0.7342022%2C34.6595633%2C8z%2Fdata%3D*213m1*214b1*214m9*214m8*211m1*214e1*211m5*211m1*211s0x182a57d182d14019%3A0x27ce1cefba07ca6f*212m2*211d35.2832281*212d-0.3705728%3Fentry%3Dttu!5e0!3m2!1sen!2ske!4v1693433452965!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7348733198296!2d35.280653174744934!3d-0.3705674353103708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a57d182d14019%3A0x27ce1cefba07ca6f!2sTropical%20Farmers%20Agrovet%20Ltd!5e0!3m2!1sen!2ske!4v1693822502516!5m2!1sen!2ske"
               width="450"
               height="300"
               style={{ border: 0 }}
