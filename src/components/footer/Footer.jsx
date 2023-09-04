@@ -41,8 +41,8 @@ const Footer = () => {
             <p className="footer-contact-address">Kenyatta Street next to<br /> Kenya Highlands Sacco. </p>
             <p className="footer-contact-address">Kericho Town</p>
             <p className="footer-contact-address">Kericho, Kenya</p>
-            <p className="footer-contact-address">+254 740 522124</p>
-            <p className="footer-contact-address">+254 723 494317</p>
+            <p className="footer-contact-address">+254 740 522124, <span className="loc">Kco</span></p>
+            <p className="footer-contact-address">+254 756 522124, <span className="loc">Ltn</span></p>
           </div>
           <div>
             <iframe className="footer-iframe-map"
