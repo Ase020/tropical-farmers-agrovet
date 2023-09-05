@@ -1,9 +1,40 @@
 import { Link } from "react-router-dom";
 import { FaFacebook, FaWhatsapp, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
-import {  tropicalLogo, sendMail } from "../../assets";
+import { tropicalLogo, sendMail } from "../../assets";
 import "./footer.css";
+// import { useEffect } from 'react';
 
 const Footer = () => {
+  // useEffect(() => {
+  //   console.log(window.google);
+  //   function initMap() {
+  //     var map = new window.google.maps.Map(document.getElementsByClassName("footer-iframe-map")[0], {
+  //       zoom: 15,
+  //       center: { lat: -0.37047087819062796, lng: 35.28346413439277 },
+  //     });
+
+  //     var marker = new window.google.maps.Marker({
+  //       position: { lat: -0.37047087819062796, lng: 35.28346413439277 },
+  //       map: map,
+  //       icon: {
+  //         url: "https://maps.google.com/mapfiles/kml/paddle/red-stars.png", // Custom marker icon to highlight exact location
+  //         size: new window.google.maps.Size(32, 32),
+  //         origin: new window.google.maps.Point(0, 0),
+  //         anchor: new window.google.maps.Point(16, 32),
+  //         scaledSize: new window.google.maps.Size(32, 32)
+  //       },
+  //     });
+
+  //     animateMarker(marker);
+  //   }
+
+  //   function animateMarker(marker) {
+  //     marker.setAnimation(window.google.maps.Animation.BOUNCE); // Makes the marker location bounce
+  //   }
+
+  //   initMap();
+  // }, []);
+
   return (
     <footer className="footer-container">
       <div className="footer-links-container">
@@ -18,23 +49,23 @@ const Footer = () => {
             <Link to="/">Contacts</Link>
           </div>
           <div className="mis-vis-container">
-          <h4 className="footer-contact-header">About</h4>
-          <div className="mis-vis">
-            <ul>
-              <li>
-                <strong className="str">Vision: </strong>
+            <h4 className="footer-contact-header">About</h4>
+            <div className="mis-vis">
+              <ul>
+                <li>
+                  <strong className="str">Vision: </strong>
                   <p>To partner with governmental and non-governmental entities to achieve food security and sustainability</p>
-              </li>
-              <br />
+                </li>
+                <br />
                 <li>
                   <strong className="str">Mision: </strong>
                   <p>To provide the best practices  in the industry that guarantees quality and safe farm produce, and to improve the lives of farmers</p>
                 </li>
-            </ul>
+              </ul>
+            </div>
           </div>
         </div>
-        </div>
-        
+
         <div className="footer-contact-us">
           <div className="footer-contact-address-wrapper">
             <h4 className="footer-contact-header">Address</h4>
@@ -46,11 +77,11 @@ const Footer = () => {
           </div>
           <div>
             <iframe className="footer-iframe-map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7348733198296!2d35.280653174744934!3d-0.3705674353103708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a57d182d14019%3A0x27ce1cefba07ca6f!2sTropical%20Farmers%20Agrovet%20Ltd!5e0!3m2!1sen!2ske!4v1693822502516!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7348733198296!2d35.28346413439277!3d-0.37047087819062796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a57d182d14019%3A0x27ce1cefba07ca6f!2sTropical%20Farmers%20Agrovet%20Ltd!5e0!3m2!1sen!2ske!4v1693822502516!5m2!1sen!2ske"
               width="450"
               height="300"
               style={{ border: 0 }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             >
@@ -67,7 +98,7 @@ const Footer = () => {
               type="text"
               placeholder="Enter your email"
               className="footer-newsletter-email"
-              required="true"
+              required={true}
             />
             <img src={sendMail} alt="send" className="newsletter-btn" />
           </div>
