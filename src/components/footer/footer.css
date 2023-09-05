@@ -37,8 +37,8 @@ footer{
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    margin-top: 48px;
+    gap: 16px;
+    margin-top: 56px;
     margin-left: -100px;
     color: #fff;
 }
@@ -46,6 +46,8 @@ footer{
 .footer-links a {
     font-weight: 400;
     font-size: 14px;
+    text-decoration: dotted none;
+
 }
 
 .mis-vis {
@@ -55,8 +57,8 @@ footer{
 .mis-vis-container p{
     color: #fff;
     font-style: italic;
-    font-size: 16px;
-    font-weight: 250;
+    font-size: 14px;
+    font-weight: 280;
 }
 
 .str {

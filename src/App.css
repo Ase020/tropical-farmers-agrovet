@@ -6,7 +6,7 @@
 
 .app {
   border: 1px solid green;
-  background: url(/veg4.jpg) center/cover no-repeat;
+  background: url(/banner.jpg) center/cover no-repeat;
   min-height: 100vh;
 }
 
