@@ -6,6 +6,14 @@
 
 .app {
   border: 1px solid green;
-  background: url(/banner.jpg) center/cover;
+  background: url(/veg4.jpg) center/cover no-repeat;
   min-height: 100vh;
+}
+
+
+@media screen and (max-width:480px) {
+  .app {
+    background-size: center;
+    background-position: top;
+  }
 }
