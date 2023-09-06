@@ -3,11 +3,14 @@ import { Footer, Navbar } from "../components";
 
 const Layout = () => {
   return (
-    <div className="app">
-      <Navbar />
-      <Outlet />
+    
+    <>
+      <div className="app">
+        <Navbar />
+        <Outlet />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

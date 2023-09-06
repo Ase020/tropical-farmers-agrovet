@@ -37,6 +37,7 @@ const Navbar = () => {
         <nav className="navlinks__container" data-aos="fade-down">
           <Link to="/">Home</Link>
           <Link to="/">Products</Link>
+          <Link to="/">Gallery</Link>
           <Link to="/">About Us</Link>
           <Link to="/">Contact</Link>
         </nav>
@@ -54,6 +55,8 @@ const Navbar = () => {
             </Link>
             <Link onClick={() => setMobile(false)} to="/">
               Products
+            </Link><Link onClick={() => setMobile(false)} to="/">
+              Gallery
             </Link>
             <Link onClick={() => setMobile(false)} to="/">
               About Us
