@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Footer, Navbar, Products } from "../components";
+import { Footer, Navbar } from "../components";
 
 const Layout = () => {
   return (
@@ -8,7 +8,6 @@ const Layout = () => {
         <Navbar />
         <Outlet />
       </div>
-      <Products />
       <Footer />
     </>
   );

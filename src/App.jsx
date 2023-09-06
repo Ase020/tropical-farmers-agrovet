@@ -11,6 +11,9 @@ AOS.init({
 
 import "./App.css";
 import { Home, Layout } from "./pages";
+import { Products } from "./components";
+
+
 
 function App() {
   const router = createBrowserRouter([
@@ -21,6 +24,10 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/Products",
+          element: <Products />,
         },
       ],
     },
