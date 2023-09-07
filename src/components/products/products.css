@@ -21,11 +21,13 @@
 
 .products_card-wrapper {
   border: 1px solid blue;
-  padding: 16px 8px;
-  margin: 0 auto;
+  margin-bottom: 16px;
+  /* padding: 16px 8px; */
+  /* margin: 0 auto; */
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: flex-start;
   gap: 36px;
 }
