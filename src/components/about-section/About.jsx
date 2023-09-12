@@ -9,12 +9,12 @@ function AboutSection() {
                 <h2>ABOUT US</h2>
                 <p>
                     Tropical Farmers Agrovet Ltd Co Ltd is a Private Limited Company
-                    established under the Company&apos;s Act 2015, Laws of Kenya registered 5th
-                    February 2021 to carry out agriculture related business like Crop
-                    farming, Livestock Farming, Trading of agricultural products and other
-                    agriculture related business. The company started operation in 2021 to
-                    date. The Company is Located in Kericho County Kericho town along
-                    Kenyatta Street next to Kenya Highlands Sacco.
+                    established under the Company&apos;s Act 2015, Laws of Kenya. It was 
+                    officially registered 5th February 2021 to carry out agriculture related 
+                    business like Crop farming, Livestock Farming, Trading of agricultural 
+                    products and other agriculture related business. The company started 
+                    operation in 2021 to date. The Company is Located in Kericho County 
+                    Kericho town along Kenyatta Street next to Kenya Highlands Sacco.
                 </p>
             </div>
             <div className="connector"></div>
