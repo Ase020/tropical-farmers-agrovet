@@ -23,7 +23,7 @@ const AgrovetSlider = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -43,36 +43,36 @@ const AgrovetSlider = () => {
             <h1>Our Partners</h1>
             <div className='divider'></div>
                 <p>
-                    Our company has ensured adequate provision of human resources and 
-                    equipment to cater to the diverse needs of our customers, ranging 
-                    from simple to complex requirements. We operate in accordance with 
-                    the labor laws, ensuring compliance and ethical standards. Our communication 
-                    channels are efficient, and we have a prompt response system in place for 
-                    urgent situations. Moreover, we possess the capability to distribute 
-                    products from the following companies with ease:
+                    Our company is comprised of highly skilled professionals who are committed 
+                    to driving impact in  agriculture sector. We are dedicated to managing 
+                    viable agriculture projects and delivering value-added products using our 
+                    full-time employees and on-call experts. Moreover, we possess the capability 
+                    to distribute products from the following companies with ease;
                 </p>
 
-            <div className='slider-arrows'>
-                <div 
-                    className='swiper-prev'
-                    tabIndex='0'
-                    role='button'
-                    aria-label='Previous slide'
-                    onClick={goToPrevSlide}
-                >
-                    <FontAwesomeIcon aria-hidden="true" icon={faAngleLeft} />
-                </div>
+            <div className='slick-track'>
+                <div className='slider-arrows'>
+                    <div 
+                        className='swiper-prev'
+                        tabIndex='0'
+                        role='button'
+                        aria-label='Previous slide'
+                        onClick={goToPrevSlide}
+                    >
+                        <FontAwesomeIcon aria-hidden="true" icon={faAngleLeft} />
+                    </div>
 
-                <div
-                    className='swiper-next'
-                    tabIndex='0'
-                    role='button'
-                    aria-label='Next slide'
-                    onClick={goToNextSlide}
-                >
-                    <FontAwesomeIcon aria-hidden="true" icon={faAngleRight} />
+                    <div
+                        className='swiper-next'
+                        tabIndex='0'
+                        role='button'
+                        aria-label='Next slide'
+                        onClick={goToNextSlide}
+                    >
+                        <FontAwesomeIcon aria-hidden="true" icon={faAngleRight} />
+                    </div>
                 </div>
-            </div>
+            
 
                 {/* TODO: Add link to the list of companies inside slider */}
                 
@@ -99,7 +99,7 @@ const AgrovetSlider = () => {
                         <img src={vital} alt="Vital" />
                     </div>
                 </Slider>
-
+            </div>
         </div>
     );
 };
