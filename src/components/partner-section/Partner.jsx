@@ -50,7 +50,6 @@ const AgrovetSlider = () => {
                     to distribute products from the following companies with ease;
                 </p>
 
-            <div className='slick-track'>
                 <div className='slider-arrows'>
                     <div 
                         className='swiper-prev'
@@ -76,26 +75,28 @@ const AgrovetSlider = () => {
 
                 {/* TODO: Add link to the list of companies inside slider */}
                 
+                <div className='slick-track'>
+
                 <Slider {...settings}>
-                    <div>
+                    <div className='img-logo'>
                         <img src={bidcoLogo} alt="Bidco" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={kenyaSeed} alt="Kenya Seed" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={modernWays} alt="Modern Ways" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={pembeFeeds} alt="Pembe Feeds" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={sigma} alt="Sigma" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={ungaFarmcare} alt="Unga Farmcare" />
                     </div>
-                    <div>
+                    <div className='img-logo'>
                         <img src={vital} alt="Vital" />
                     </div>
                 </Slider>

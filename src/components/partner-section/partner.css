@@ -61,7 +61,7 @@
   font-weight: 900;
   line-height: 1;
   z-index: 10;
-  transform: translateY(-50%)
+  transform: translateY(130px)
 }
 
 .swiper-next {
@@ -72,7 +72,7 @@
   font-weight: 900;
   line-height: 1;
   z-index: 10;
-  transform: translateY(-50%)
+  transform: translateY(130px)
 }
 
 .slick-slide {
@@ -82,10 +82,17 @@
   margin: 0 auto;
 }
 
+/* .img-logo {
+  width: fit-content;
+  height: fit-content;
+} */
+
 .slick-track {
-  /* outline: 0;*/
-  /*font-size: 100%; */
-  /* vertical-align: baseline;*/
-  /*align-items: center; */
-  /* font-size: 100%; */
+  outline: 0;
+  font-size: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  z-index: 1;
+  /* align-items: center; */
 }
+
