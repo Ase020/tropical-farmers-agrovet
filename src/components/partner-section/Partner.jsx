@@ -16,7 +16,7 @@ import {
     vital,
 } from '../../assets/partner-logos/index.js';
 
-const AgrovetSlider = () => {
+const Partners = () => {
     const sliderRef = useRef(null);
 
     const settings = {
@@ -105,4 +105,4 @@ const AgrovetSlider = () => {
     );
 };
 
-export default AgrovetSlider;
+export default Partners;
