@@ -96,3 +96,24 @@
   /* align-items: center; */
 }
 
+
+
+@media screen and (max-width: 480px) {
+  .agrovet-slider h1 {
+    font-size: 28px;
+  }
+  .agrovet-slider p {
+    font-size: 16px;
+  }
+  .divider {
+    display: inline-block;
+    width: 16%;
+    height: 3px;
+  }
+  .swiper-prev {
+    transform: translateY(65px)
+  }
+  .swiper-next {
+    transform: translateY(65px)
+  }
+}
