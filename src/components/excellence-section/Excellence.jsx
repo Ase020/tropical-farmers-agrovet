@@ -14,11 +14,9 @@ const Excellence = () => {
     
     return (
         <>
-            <div className="excellence-header">
-                <div className="info-header">
-                    <h1>Why Choose Us?</h1>
-                    <div className="divider"></div>
-                </div>
+            <div className="info-header">
+                <h1>Why Choose Us?</h1>
+                <div className="divider"></div>
             </div>
             
             <div className="info-section">
