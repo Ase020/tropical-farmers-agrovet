@@ -3,13 +3,12 @@ import { Footer, Navbar } from "../components";
 
 const Layout = () => {
   return (
-    
     <>
       <div className="app">
         <Navbar />
         <Outlet />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
