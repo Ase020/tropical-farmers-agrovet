@@ -40,21 +40,21 @@ const Excellence = () => (
                     We provide exceptional customer service and are always here to help with any questions or concerns.
                 </p>
             </div>
-            <div className="info-container" data-aos="fade-up">
+            <div className="info-container" data-aos="fade-right">
                 <div className="info-img"><img src={Pricing} alt="Pricing" /></div>
                 <h2>Pricing</h2>
                 <p>
                     We offer competitive pricing on all of our products, so you can get quality without breaking the bank.
                 </p>
             </div>
-            <div className="info-container" data-aos="fade-up">
+            <div className="info-container" data-aos="slide-up">
                 <div className="info-img"><img src={Community} alt="Community" /></div>
                 <h2>Community</h2>
                 <p>
                     We are committed to supporting our local community by sourcing our products locally and giving back.
                 </p>
             </div>
-            <div className="info-container" data-aos="fade-up">
+            <div className="info-container" data-aos="fade-left">
                 <div className="info-img"><img src={Sustainability} alt="Sustainability" /></div>
 
                 <h2>Sustainability</h2>
