@@ -11,8 +11,8 @@
 
 .agrovet-slider img {
   width: 100%;
-  justify-content: center;
-  height: auto;
+  padding: 30px;
+  align-items: center;
   cursor: grab;
 }
 
@@ -27,10 +27,9 @@
 
 .agrovet-slider p {
   margin-top: -15px;
-
   text-align: center;
-  /* font-weight: 300; */
-  font-size: 16px;
+  line-height:  35px;
+  font-size: 18px;
   color: #4A4A4A;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 30px;
@@ -38,82 +37,60 @@
 
 .divider {
   display: inline-block;
-  width: 10%;
-  height: 4px;
-  /* margin-top: 10px; */
+  width: 13%;
+  height: 3px;
   margin-bottom: 30px;
   background-color: rgb(255, 89, 0);
+  border-radius: 50%;
 }
 
-.slider-arrows {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 900;
-  /* margin-bottom: 20px; */
+.slider-container {
+  padding: 24px;
+  background: linear-gradient(0deg, #fff 10%, #6bc46c, #fff 90%);
 }
 
-.swiper-prev {
-  width: auto;
-  left: 10px;
-  right: auto;
-  font-size: 22px;
-  font-weight: 900;
-  line-height: 1;
-  z-index: 10;
-  transform: translateY(130px)
+.img-logos {
+  min-width: 250px;
+  min-height: 250px;
 }
-
-.swiper-next {
-  width: auto;
-  right: 10px;
-  left: auto;
-  font-size: 22px;
-  font-weight: 900;
-  line-height: 1;
-  z-index: 10;
-  transform: translateY(130px)
-}
-
-.slick-slide {
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* .img-logo {
-  width: fit-content;
-  height: fit-content;
-} */
-
-.slick-track {
-  outline: 0;
-  font-size: 100%;
-  vertical-align: middle;
-  overflow: hidden;
-  z-index: 1;
-  /* align-items: center; */
-}
-
-
 
 @media screen and (max-width: 480px) {
   .agrovet-slider h1 {
     font-size: 28px;
   }
+
   .agrovet-slider p {
     font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
   }
+
   .divider {
-    display: inline-block;
-    width: 16%;
+    width: 30%;
     height: 3px;
   }
-  .swiper-prev {
-    transform: translateY(65px)
+
+  .agrovet-slider img {
+    padding: 8px;
+    /* object-fit: contain; */
   }
-  .swiper-next {
-    transform: translateY(65px)
+
+  .slider-container {
+    padding: 2px;
+    height: auto;
+    background: #fff;
+  }
+
+  .img-logos {
+    min-width: 90px;
+    min-height: 90px;
+  }
+
+  .slick-list {
+    margin: 0 -10px;
+  }
+
+  .slick-slide {
+    padding: 0 10px;
   }
 }

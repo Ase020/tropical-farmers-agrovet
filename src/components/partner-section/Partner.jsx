@@ -3,8 +3,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './partner.css';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
     bidcoLogo,
@@ -30,14 +28,6 @@ const Partners = () => {
         ref: sliderRef,
     };
 
-    const goToPrevSlide = () => {
-        sliderRef.current.slickPrev();
-    };
-
-    const goToNextSlide = () => {
-        sliderRef.current.slickNext();
-    };
-
     return (
         <div className='agrovet-slider'>
             <h1>Our Partners</h1>
@@ -50,54 +40,33 @@ const Partners = () => {
                     to distribute products from the following companies with ease;
                 </p>
 
-                <div className='slider-arrows'>
-                    <div 
-                        className='swiper-prev'
-                        tabIndex='0'
-                        role='button'
-                        aria-label='Previous slide'
-                        onClick={goToPrevSlide}
-                    >
-                        <FontAwesomeIcon aria-hidden="true" icon={faAngleLeft} />
-                    </div>
-
-                    <div
-                        className='swiper-next'
-                        tabIndex='0'
-                        role='button'
-                        aria-label='Next slide'
-                        onClick={goToNextSlide}
-                    >
-                        <FontAwesomeIcon aria-hidden="true" icon={faAngleRight} />
-                    </div>
-                </div>
+                
             
 
-                {/* TODO: Add link to the list of companies inside slider */}
+                {/* TODO: Add links of the companies inside slider */}
                 
-                <div className='slick-track'>
-
+            
+            <div className="slider-container">
                 <Slider {...settings}>
                     <div className='img-logo'>
-                        <img src={bidcoLogo} alt="Bidco" />
+                        <img className="img-logos" src={bidcoLogo} alt="Bidco" />
                     </div>
                     <div className='img-logo'>
-                        <img src={kenyaSeed} alt="Kenya Seed" />
+                        <img className="img-logos" src={modernWays} alt="Modern Ways" />
                     </div>
                     <div className='img-logo'>
-                        <img src={modernWays} alt="Modern Ways" />
+                        <img className="img-logos" src={sigma} alt="Sigma" />
+                    </div><div className='img-logo'>
+                        <img className="img-logos" src={kenyaSeed} alt="Kenya Seed" />
                     </div>
                     <div className='img-logo'>
-                        <img src={pembeFeeds} alt="Pembe Feeds" />
+                        <img className="img-logos" src={ungaFarmcare} alt="Unga Farmcare" />
                     </div>
                     <div className='img-logo'>
-                        <img src={sigma} alt="Sigma" />
+                        <img className="img-logos" src={vital} alt="Vital" />
                     </div>
                     <div className='img-logo'>
-                        <img src={ungaFarmcare} alt="Unga Farmcare" />
-                    </div>
-                    <div className='img-logo'>
-                        <img src={vital} alt="Vital" />
+                        <img className="img-logos" src={pembeFeeds} alt="Pembe Feeds" />
                     </div>
                 </Slider>
             </div>
