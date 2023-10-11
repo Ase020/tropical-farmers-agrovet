@@ -5,7 +5,6 @@
 }
 
 .app {
-  border: 1px solid green;
   background: url(/banner.jpg) center/cover no-repeat;
   max-height: 100vh;
 }
