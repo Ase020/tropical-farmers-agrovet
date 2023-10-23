@@ -6,3 +6,4 @@ import { default as About } from "./about-section/About";
 import { default as Partner } from "./partner-section/Partner";
 
 export { Navbar, Footer, HeroSection, Excellence, About, Partner };
+

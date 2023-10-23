@@ -5,9 +5,13 @@ const Home = () => {
   return (
     <div className="home">
       <HeroSection />
+
+      <Products />
+
       <About />
       <Excellence />
       <Partner />
+
     </div>
   );
 };
