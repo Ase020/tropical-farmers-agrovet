@@ -1,151 +1,151 @@
 .about-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    margin-top: 2px;
-    /* height: 910px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .about-title {
-    text-align: center;
+  text-align: center;
 }
 
 .about-title h1 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 40px;
-    font-weight: 400;
-    color: #333;
-    font-family: Georgia;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #333;
+  font-family: Georgia;
 }
 
 .divides {
-    width: 120px;
-    height: 3px;
-    background-color: rgb(255, 89, 0);   
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  width: 120px;
+  height: 3px;
+  background-color: rgb(255, 89, 0);
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .aboutUs {
-    text-align: center;
-    margin-bottom: 20px;
-    /* max-width: 1080px; */
+  text-align: center;
+  margin-bottom: 20px;
+  /* max-width: 1080px; */
 }
 
 .aboutUs p {
-    font-weight: lighter;
-    font-size: 18px;
-    line-height: 35px;
-    font-family: 'Montserrat', sans-serif;
-    color: #4A4A4A;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 35px;
+  font-family: "Montserrat", sans-serif;
+  color: #4a4a4a;
 }
 
 .connector {
-    width: 1px;
-    height: 50px;
-    background-color: #f1582d;
-    margin-bottom: 15px;
+  width: 1px;
+  height: 50px;
+  background-color: #f1582d;
+  margin-bottom: 15px;
 }
 
 .content {
-    animation: zoom-out 0.6s forwards;
-    margin-top: 16px;
-    max-width: 900px;
-    text-align: center;
-    padding: 20px;
-    background-color: #f5f5f5; 
-    border-radius: 5px;
-    box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.2); 
-    margin-bottom: 15px;
+  animation: zoom-out 0.6s forwards;
+  margin-top: 16px;
+  max-width: 900px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
 }
 
 .content h2 {
-    font-family: 'Montserrat', 'Sans-serif';
-    font-weight: 900;
-    color: #74a548;
+  font-family: "Montserrat", "Sans-serif";
+  font-weight: 900;
+  color: #74a548;
 }
 
 .content p {
-    line-height: 30px;
-    margin: 0;
+  line-height: 30px;
+  margin: 0;
 }
 
 .contents {
-    animation: zoom-in 0.6s forwards;
-    /* max-width: 800px; */
-    text-align: center;
-    padding: 20px;
-    min-width: 400px;
-    padding: 30px;
-    background-color: transparent;  
-    background-image: linear-gradient(0deg, #c06b2d 0%, #085709 60%);
-    border-radius: 7px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  animation: zoom-in 0.6s forwards;
+  /* max-width: 800px; */
+  text-align: center;
+  padding: 20px;
+  min-width: 400px;
+  padding: 30px;
+  background-color: transparent;
+  background-image: linear-gradient(0deg, #c06b2d 0%, #085709 60%);
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .mis-vis {
-    display: inline-flex;
-    gap: 2rem;
-    width: calc(140%/2);
-    min-height: 300px;
-    margin-top: 50px;
+  display: inline-flex;
+  gap: 2rem;
+  width: calc(140% / 2);
+  min-height: 300px;
+  margin-top: 50px;
 }
 
 .contents h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    color: #fff;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .contents p {
-    font-size: 16px;
-    line-height: 30px;
-    color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
-    .about-title h1 {
-        font-size: 28px;
-    }
+  .about-title h1 {
+    font-size: 28px;
+  }
 
-    .divides {
-        width: 60%;
-        height: 3px;
-        margin-bottom: 40px;
-    }
+  .divides {
+    width: 60%;
+    height: 3px;
+    margin-bottom: 40px;
+  }
 
-    .mis-vis {
-        display: block;
-        width: auto;
-        margin: 10px; /*can set to auto*/
-    }
+  .mis-vis {
+    display: block;
+    width: auto;
+    margin: 10px; /*can set to auto*/
+  }
 
-    .contents {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
+  .contents {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-    .content p {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 30px;
-    }
+  .content p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+  }
 
-    .aboutUs p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 30px;
-    }
+  .aboutUs p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-    .contents h2 {
-        font-size: 28px;
-    }
+  .contents h2 {
+    font-size: 28px;
+  }
 
-    .contents p {
-        font-size: 16px;
-    }
+  .contents p {
+    font-size: 16px;
+  }
 }
