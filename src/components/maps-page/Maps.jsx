@@ -12,6 +12,7 @@ const Maps = () => {
             <div className="map-info">
                 <div className="map-kco">
                     <iframe
+                        className="mobile-map-iframe"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7348733198296!2d35.28346413439277!3d-0.37047087819062796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a57d182d14019%3A0x27ce1cefba07ca6f!2sTropical%20Farmers%20Agrovet%20Ltd!5e0!3m2!1sen!2ske!4v1693822502516!5m2!1sen!2ske"
                         width="100%"
                         height="550px"
@@ -73,6 +74,7 @@ const Maps = () => {
                 </div>
                 <div className="map-ltn">
                     <iframe
+                        className="mobile-map-iframe"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6697.51964554495!2d35.18938101972945!3d-0.5864289634727451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182b0738a3eddd1b%3A0x5c75ca9f352b3a0d!2sTropical%20Farmers%20Agrovet-Litein!5e0!3m2!1sen!2ske!4v1698182439380!5m2!1sen!2ske"
                         width="100%"
                         height="550px"
@@ -88,18 +90,3 @@ const Maps = () => {
 };
 
 export default Maps;
-
-
-
-
-// for (let i = 0; i<=100; i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         console.log("FizzBuzz");
-//     }else if (i % 3 === 0) {
-//         console.log("Fizz");
-//     }else if (i % 5 === 0) {
-//         console.log("Buzz");
-//     }else {
-//         console.log(i);
-//     }
-// }
