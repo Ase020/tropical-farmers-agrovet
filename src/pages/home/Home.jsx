@@ -4,6 +4,7 @@ import {
   About,
   Partner,
   Products,
+  Contact,
 } from "../../components";
 import "./home.css";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Excellence />
       <Partner />
+      <Contact />
     </div>
   );
 };
