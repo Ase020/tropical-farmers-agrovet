@@ -1,5 +1,4 @@
 .contact-container {
-  border: 1px solid red;
   background: #eae9e9;
 
   display: flex;
@@ -9,15 +8,15 @@
 }
 
 .contact-wrapper {
-  border: 1px solid blue;
   max-width: 1240px;
 
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .contact-form-wrapper {
-  flex: 3;
+  flex: 1;
 
   display: flex;
   flex-direction: column;
@@ -79,6 +78,5 @@
 }
 
 .contact-map {
-  flex: 2;
-  border: 1px solid green;
+  flex: 1;
 }

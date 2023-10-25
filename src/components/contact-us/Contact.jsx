@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
