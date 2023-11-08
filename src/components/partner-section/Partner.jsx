@@ -10,7 +10,7 @@ import {
     modernWays,
     pembeFeeds,
     sigma,
-    ungaFarmcare,
+    ungaFarm,
     vital,
 } from '../../assets/partner-logos/index.js';
 
@@ -21,11 +21,19 @@ const Partners = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
         ref: sliderRef,
+        responsive: [
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 3,
+                },
+            },
+        ],
     };
 
     return (
@@ -49,25 +57,27 @@ const Partners = () => {
             <div className="slider-container">
                 <Slider {...settings}>
                     <div className='img-logo'>
-                        <img className="img-logos" src={bidcoLogo} alt="Bidco" />
-                    </div>
-                    <div className='img-logo'>
-                        <img className="img-logos" src={modernWays} alt="Modern Ways" />
+                        <img className="bidco-img-logo" src={bidcoLogo} alt="Bidco" />
                     </div>
                     <div className='img-logo'>
                         <img className="img-logos" src={sigma} alt="Sigma" />
-                    </div><div className='img-logo'>
+                    </div>
+                    <div className='img-logo'>
+                        <img className="pembe-img-logo" src={pembeFeeds} alt="Pembe Feeds" />
+                    </div>
+                    <div className='img-logo'>
                         <img className="img-logos" src={kenyaSeed} alt="Kenya Seed" />
                     </div>
                     <div className='img-logo'>
-                        <img className="img-logos" src={ungaFarmcare} alt="Unga Farmcare" />
+                        <img className="img-logos2" src={modernWays} alt="Modern Ways" />
                     </div>
                     <div className='img-logo'>
-                        <img className="img-logos" src={vital} alt="Vital" />
+                        <img className="img-logos3" src={ungaFarm} alt="Unga Farmcare" />
                     </div>
                     <div className='img-logo'>
-                        <img className="img-logos" src={pembeFeeds} alt="Pembe Feeds" />
+                        <img className="img-logos4" src={vital} alt="Vital" />
                     </div>
+                    
                 </Slider>
             </div>
         </div>
