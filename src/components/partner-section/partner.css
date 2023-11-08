@@ -30,7 +30,7 @@
   text-align: center;
   line-height:  35px;
   font-size: 18px;
-  color: #4A4A4A;
+  color: #2b2b2b;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 30px;
 }
@@ -45,14 +45,42 @@
 }
 
 .slider-container {
+  width: 100%;
+  margin: 0 auto;
   padding: 24px;
-  background: linear-gradient(0deg, #fff 10%, #6bc46c, #fff 90%);
+  /* background: linear-gradient(0deg, #fff 30%, #a0e2a1, #fff 70%); */
+}
+
+.bidco-img-logo{
+  max-width: 300px;
+  height: 180px;
+}
+
+.pembe-img-logo{
+  max-width: 180px;
+  height: 180px;
+}
+
+.img-logos2 {
+  max-width: 300px;
+  height: 180px;
 }
 
 .img-logos {
-  min-width: 250px;
-  min-height: 250px;
+  max-width: 180px;
+  height: 180px;
 }
+
+.img-logos3 {
+  max-width: 300px;
+  height: 180px;
+}
+
+.img-logos4 {
+  max-width: 200px;
+  height: 180px;
+}
+
 
 @media screen and (max-width: 480px) {
   .agrovet-slider h1 {
@@ -75,15 +103,19 @@
     /* object-fit: contain; */
   }
 
-  .slider-container {
-    padding: 2px;
-    height: auto;
-    background: #fff;
+  .img-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
   }
 
-  .img-logos {
-    min-width: 90px;
-    min-height: 90px;
+  .img-logo img {
+    /* width: 100%; */
+    height: auto;
+    min-width: 110px;
+    min-height: 100px;
   }
 
   .slick-list {
