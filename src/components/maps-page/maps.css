@@ -1,0 +1,76 @@
+.map-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.divider-maps {
+  width: 220px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(255, 89, 0);   
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.map-info {
+  width: 1300px;
+  display: flex ;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+  background-color: #fff;
+  
+}
+
+h2 {
+  font-size: 44px;
+  color: #333;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: "Montserrat", "Helvetica Neue";
+  color: #333;
+}
+.map-kco {
+  width: 70%;
+  margin-left: 70px;
+}
+
+.map-ltn {
+  width: 70%;
+  margin-right: 70px;
+}
+
+.contact-info-item {
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+.maps-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.contact-info-item h4, p {
+  font-family: "Montserrat", "Helvetica Neue";
+  font-size: 18px;
+  text-align: center;
+}
